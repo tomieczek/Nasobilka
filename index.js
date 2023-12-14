@@ -25,6 +25,8 @@ const swapMathProblems = (index1, index2) => {
 };
 
 const createNumbers = () => {
+    div.innerHTML = ""
+    results.length = 0
   for (let i = 0; i < 5; i++) {
     createMultiplyExample(i);
   }
